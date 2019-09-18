@@ -1,0 +1,161 @@
+body {
+	font-family: sans-serif;
+}
+body * {
+	box-sizing: border-box;
+}
+
+ul li {
+	font-family: "Helvetica Neue LT Std";
+	font-size: 18px;
+	list-style-type: none;
+}
+
+ul{margin-right: 18.7px;
+padding: 7px;}
+
+h1{
+	color:white;
+	font-size: 87px;
+	font-family: Helvetica Neue LT Std;
+	font-weight: 900;
+	height: 228px;
+	width: 100%;
+	background-color:#4C93FF;
+	border:2px solid #4C93FF;
+	margin: 0px;
+	margin-bottom: 56px;
+
+}
+
+input, label {
+    display:block;
+}
+
+label{font-family: Helvetica Neue LT Std;
+		font-weight: 200;
+		font-size: 21px;}
+
+input{width: 308px;
+height:45px;
+border-color: black;
+border:5px solid black;
+font-family: Helvetica Neue LT Std;
+font-weight: 900;
+font-size: 21px;
+}
+
+.grid {
+	margin-left: 16px;
+    display: grid;
+    grid-template-columns: 460px 460px 460px;
+    grid-template-rows: 10rem 10rem;
+	margin-bottom: 86px;
+}
+
+.info{font-size: 17px;
+	width: 425px;
+border-right:3px solid black;
+padding-right: 15px;}
+
+.dur{
+	float: left;
+}
+
+.int{
+	float:right;
+
+
+}
+
+.con{
+	float:left;
+}
+
+.amo{
+	float: right;
+
+}
+
+
+.calbutt{
+	color:white;
+	background-color: #4C93FF;
+	border-style: none;
+width: 308px;
+height:64px;
+font-family: Helvetica Neue LT Std;
+font-weight: 900;
+font-size: 30px;
+
+}
+
+p{font-family: Helvetica Neue LT Std;
+font-weight: 200;
+font-size: 21px;
+width: 100%;
+
+float:left;}
+
+
+.starting-val{
+	margin-top:40px;
+	margin-right: 65px;
+	float: right;
+	color:white;
+	font-family: Helvetica Neue LT Std;
+	font-weight: 900;
+	font-size: 35px;}
+.contribution-val{
+	margin-top:40px;
+	margin-right: 65px;
+	float: right;
+	color:white;
+	font-family: Helvetica Neue LT Std;
+	font-weight: 900;
+	font-size: 35px;}
+.final-val{
+	margin-top:40px;
+	margin-right: 65px;
+	float: right;
+	color:white;
+	font-family: Helvetica Neue LT Std;
+	font-weight: 900;
+	font-size: 35px;}
+
+.greenbox  {
+	margin-bottom: 10px;
+	font-family: "Helvetica Neue LT Std";
+	font-size: 18px;
+	background-color:#00BB6E;
+	color:white;
+	border: 5px solid #00BB6E;
+	width:433px;
+	height:145px;
+	float: left;
+	margin-left:18.7px;
+	}
+
+.bluebox  {	margin-bottom: 10px;
+	font-family: "Helvetica Neue LT Std";
+	font-size: 18px;
+	background-color:#00BB6E;
+	color:white;
+	border: 5px solid #00BB6E;
+	width:433px;
+	height:145px;
+	margin-left: 31px;
+	float: left;
+}
+
+.pinkbox{	margin-bottom: 10px;
+	font-family: "Helvetica Neue LT Std";
+	font-size: 18px;
+	background-color:#00BB6E;
+	color:white;
+	border: 5px solid #00BB6E;
+	width:433px;
+	height:145px;
+	float: right;
+	margin-right:32px;
+}

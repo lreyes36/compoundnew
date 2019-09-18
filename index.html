@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Compound Interest Calculator</title>
+	<meta name="description" content="DESCRIPTION">
+	<link rel="stylesheet" href="calculator.css">
+
+	<!--[if lt IE 9]>
+	<script src = "http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<h1>Compound Interest Calculator</h1>
+	<form>
+		<ul>
+			<div class="grid">
+				<div>
+					<p class="info">
+					Compound interest is when you keep certain sum of money in an account and having interest added on to the initial deposit. As a result of reinvesting you’ll well see more money in the account which could increase higher if you deposit more into the account. So just sit back and let the money grow. (Disclaimer) This calculator cannot always be 100 percent accurate. Pleas consult a banker for more in-depth interest discussion. I am not responsible for the fees and or loss of money that may be possible
+				</p>
+				</div>
+		<div>
+			<li>
+				<label for="amount">Starting Amount($)*:</label>
+				<input type="number" name="amount" value="1000">
+			</li>
+			</div>
+			<div>
+			<li>
+				<label for="interest">Interest Rate(%)*:</label>
+				<input type="number" name="interest" value="2">
+			</li>
+			</div>
+		<div>
+		</div>
+
+			<div>
+			<li>
+				<label for="contribution">Annual Contribution($):</label>
+				<input type="number" name="contribution" value="0">
+			</li>
+			</div>
+			<div>
+			<li>
+				<label for="duration">Duration(Years)*:</label>
+				<input type="number" name="duration" value="10">
+			</li>
+			</div>
+			<div>
+			</div>
+			<div>
+			</div>
+			<div >
+			<button type="button" class="calbutt" onclick="calculate()">Calculate</button>
+			</div>
+
+		</ul>
+		</div>
+	</form>
+	<section>
+		<div class="greenbox">
+			<p>Starting amount <strong class="starting-val">$1000</strong></p>
+		</div>
+		<div class="bluebox">
+			<p>Contribution <strong class="contribution-val">$0.00</strong></p>
+		</div>
+		<div class="pinkbox">
+			<p>Final Amount </strong><strong class="final-val">$1218.99</strong></p>
+		</div>
+	</section>
+	<script type="text/javascript" src="calculator.js"></script>
+</body>
+</html>
